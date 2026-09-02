@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+.topper
+{
+  background-color:red;
+
+}
+.menu {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+
+.menu a {
+  background-color:red;
+  padding: 8px;
+  margin-top: 7px;
+  display: block;
+  width: 100%;
+  color: black;
+}
+
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  background-color:#aa44aa;
+color:#fff;
+  text-align: justify;
+}
+
+.right {
+  background-color: #e5e5e5;
+  float: left;
+  width: 20%;
+  padding: 15px;
+  margin-top: 7px;
+  background-color:#ff88aa;
+
+color:#fff;
+  text-align: justify;
+}
+.menu-bar
+{
+background:rgb(0,100,0);
+text-align:center;
+}
+.menu-bar ul
+{
+display:inline-flex;
+list-style:none;
+color:#fff;
+}
+.menu-bar ul li
+{
+width:120px;
+margin:15px;
+padding:5px;
+}
+.menu-bar ul li a
+{
+text-decoration:none;
+color: #fff;
+}
+.active,.menu-bar ul li:hover
+{
+background:#2bab0d;
+border-radius:3px;
+}
+.sub-menu-1
+{
+display:none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+display:block;
+position:absolute;
+background:rgb(0,100,0);
+margin-top:15px;
+margin-left:-15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+display:block;
+margin:10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+width:150px;
+padding:10px;
+border-bottom :1px dotted #fff;
+background:transparent;
+border-radius:0;
+text-align:left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+border-bottom:none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+color:#b2ff00;
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body style="font-family:Verdana;color:#aaaaaa;">
+
+<div class="menu-bar">
+<ul> 
+<li class="active"> <a href="#"><i class="fa-solid fa-home"></i> Home </a> 
+<div class="sub-menu-1">
+<ul>
+<li><a href="#"> Mission</a></li>
+<li><a href="#"> vision</a></li>
+<li><a href="#"> Team</a></li>
+</ul>
+</div>
+</li>
+<li> <a href="#">About Us </a> </li>
+<li> <a href="#">Services </a> </li>
+<li> <a href="#">Clients </a> </li>
+<li> <a href="#">Investers </a> </li>
+<li> <a href="#">Pricing </a> </li>
+<li> <a href="#">Training </a> </li>
+<li> <a href="#">Contact </a> </li>
+</ul>
+</div>
+</div>
+
+
+<div style="overflow:auto">
+  <div class="menu">
+    <a href="..\\VSBWEB\srigrm\vsbhome.php">VSBHSS</a>
+    <a href="..\\VSBWEB\srigrm\grm.php">GRM</a>
+    <a href="..\\VSBWEB\srigrm\thiyaga.php">THIYAGARAJA</a>
+    <a href="..\\VSBWEB\index.html">VSBHSS-NEW</a>
+
+  </div>
+
+  <div class="main">
+    <h2>About The School</h2>
+    <p>Thiru V.S. Thiyagaraja Mudaliar M.A.,(late), a doyen in the field of Education for 66 years at Aarur, began this school after witnessing his Golden Jubilee Celebrations. The school, named after his father Thiru G.Aranganatha Mudaliar had the honour of being inaugurated by the Director of School Education late Thiru N.D.Sundarivadivelu in 1956.
+
+The school has been growing with all the laurels in different areas year after year. The support of visionary educationist late Thiru V.S.Thyagaraja Mudaliar and the 20 years of dedicated service by Selvi S.Bakkiyam, B.A.,L.T., made it a great institution, a light house of quality education and one of the best higher secondary schools.
+
+The school with 2836 students and 66 teachers scored the highest marks in the district. This time tested great academic institution with name and fame sparkling everywhere continue its journey with its mission to produce the responsible citizens for future India.
+
+The able management and correspondentship of Thiru. V.T SOMASUNDARAM B.A., Visionary thoughts from the Secretary Thiru.Dr.M.V. BALASUBRAMANIAN,M.Sc.,M.Ed.,Ph.D., The leadership of Smt. S Rajalakshmi B.sc.,M.A.,BEd., Cooperation and dedication of Teaching and Non-Teaching staff, and the support of Parents - Teachers Association has put the institution on a progressive path and it will continue to achieve new milestones in the field of Education.</p>
+  </div>
+
+  <div class="right">
+    <h2>School Admissions</h2>
+    <p>Parents are requested not to get cheated or pay any money to touts, who promise admission in the school. The parents are requested to inform the Headmistress when they come across such persons.</p>
+  </div>
+</div>
+
+<div style="background-color:brown;text-align:center;padding:10px;margin-top:7px;color:white">SRI G RENGANATHA MUDALIAR EDUCATIONAL AGENCY @2026  | All Rights Reserved </div>
+
+</body>
+</html>
+
